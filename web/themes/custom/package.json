@@ -1,0 +1,11 @@
+{
+  "name": "cypress_drupal_testing",
+  "scripts": {
+    "test:headless": "cypress run --headless --browser chrome",
+    "test:head": "cypress run --browser chrome",
+    "open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^5.2.0"
+  }
+}

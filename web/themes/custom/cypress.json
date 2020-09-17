@@ -1,0 +1,14 @@
+{
+    "baseUrl": "http://site.lndo.site/",
+    "viewportHeight": 900,
+    "viewportWidth": 1440,
+    "retries": 1,
+    "env": {
+      "cyAdminUser": "admin",
+      "cyAdminPassword": "admin",
+      "cyAdminRole": "administrator",
+      "cyEditorUser": "editor",
+      "cyEditorPassword": "editor",
+      "cyEditorRole": "editor"
+    }
+  }
