@@ -9,19 +9,19 @@
 ## Notes
 
   * - [x] Setup Cypress in your project's root and we implemented Page Object Design Pattern as below:
-       + All test modules under in ./cypress directory
-       + Test files(.cypress/integration): create_article_via_json_api.spec.spec.js; create_article_via_ui.spec;login.spec.js
-       + Page specific files(.cypress/page-objects): create_article.js, login.js
-       + Test data(.cypress/fixtures): article_testdata.js, login_testdata.js
-       + Supported/Common re-usable functions(.cypress/support): commands.js, index.js
-       + Plugin/Add-on components(.cypress/plugins): index.js
+       + All test framework details under in web/themes/custom/cypress directory
+       + Test files(cypress/integration): create_article_via_json_api.spec.spec.js; create_article_via_ui.spec;login.spec.js
+       + Page specific files(cypress/page-objects): create_article.js, login.js
+       + Test data(cypress/fixtures): article_testdata.js, login_testdata.js
+       + Supported/Common re-usable functions(cypress/support): commands.js, index.js
+       + Plugin/Add-on components(cypress/plugins): index.js
        + Config file: cypress.json
-       + Screenshots(.cypress/screenshots): cypress captures screenshots of all the failure tests
-       + Videos folder(.cypress/videos): cypress captures vidoes of all the test executions
+       + Screenshots(cypress/screenshots): cypress captures screenshots of all the failure tests while execute in CLI
+       + Videos folder(cypress/videos): cypress captures vidoes of all the tests while execute them in CLI
 
   * - [x] Create and Delete various user roles using the drush commands
 
-  * - [x] Verify Login through cy.request()
+  * - [x] Verify Login through http request calls with cy.request()
   
   * - [x] Create and Verify an article with Taxonomy Term using both UI as well as JSON:API
 
