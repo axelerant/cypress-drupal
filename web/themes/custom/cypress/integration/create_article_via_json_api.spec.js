@@ -1,11 +1,11 @@
 
 import {
   ARTICLE_JSON_TAG_ATTRIBUTE, ARTICLE_JSON_PRIM_ATTRIBUTES, NODE_TYPE, ARTICLE_JSON_HEADER_TITLE, ARTICLE_JSON_BODY_VALUE, ARTICLE_JSON_TAG
-} from '../fixtures/article_testdata.js'
+} from '../fixtures/article_testdata.js';
 
 import {
   getArticleHeader, getArticleBody, getArticleTag
-} from '../page-objects/create_article'
+} from '../page-objects/create_article';
 
 describe('Create an article via JSON:API', function () {
 
